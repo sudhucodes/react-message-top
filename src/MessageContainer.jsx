@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "./MessageTop.css";
+import "./MessageContainer.css";
 
-const MessageTop = () => {
+const MessageContainer = () => {
   const [message, setMessage] = useState("");
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    window.topMessage = {
+    window.message = {
       show: (msg, duration = 4000) => {
         setMessage(msg);
         setIsVisible(true);
@@ -25,4 +25,4 @@ const MessageTop = () => {
   );
 };
 
-export default MessageTop;
+export default MessageContainer;

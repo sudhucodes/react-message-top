@@ -1,3 +1,3 @@
-import MessageTop from "./MessageTop";
+import MessageContainer from "./MessageContainer";
 
-export default MessageTop;
+export default MessageContainer;

@@ -1,6 +1,6 @@
 {
   "name": "react-message-top",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple message bar for React apps",
   "main": "src/index.js",
   "module": "src/index.js",
