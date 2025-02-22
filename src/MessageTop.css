@@ -1,0 +1,20 @@
+.message-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.875rem;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #8b5cf6, #9938ca, #e0724a);
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.message-top.hidden {
+  height: 0;
+}
+
+.message-top.visible {
+  height: 2.25rem;
+}
